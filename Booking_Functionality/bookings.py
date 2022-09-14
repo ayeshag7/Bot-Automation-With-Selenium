@@ -51,8 +51,11 @@ class Booking(webdriver.Chrome):
         time.sleep(2)
         option = self.find_element(By.XPATH, "//li[@data-i='0']")
         option.click()
-        time.sleep(2)
-        self.set_the_timeline()
+        time.sleep(1)
 
-    def set_the_timeline(self):
-        pass
+    def set_the_dates(self, check_in_date, check_out_date):
+        check_in = self.find_element(By.XPATH, f"//td[@data-date='{check_in_date}']")
+        check_in.click()
+        check_out = self.find_element(By.XPATH, f"//td[@data-date='{check_out_date}']")
+        check_out.click()
+        time.sleep(2)
