@@ -7,3 +7,4 @@ with Booking() as bot:
     bot.change_the_currency(currency="USD")
     bot.change_the_search_query(search="bookinggo")
     bot.choose_the_destination(destination="Islamabad")
+    bot.set_the_dates("2022-09-21", "2022-09-27")
