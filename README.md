@@ -6,5 +6,11 @@ Online Bots made with Selenium Python
 ## Description
 This repository is dedicated to creating useful web browser automations with Selenium in python.
 
-## Ongoing Projects
+## Projects List
 * Booking Automation.
+
+## Run the Automations
+- Install a `chromedriver` for your browser. For chrome go to this [website](https://chromedriver.chromium.org/downloads) and download the latest version for your PC.
+- Install `python` version 3.9 or greater.
+- Install Selenium `pip install selenium`.
+- Run the `main.py` file.
