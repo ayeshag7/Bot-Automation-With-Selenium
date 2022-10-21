@@ -59,3 +59,7 @@ class Booking(webdriver.Chrome):
         check_out = self.find_element(By.XPATH, f"//td[@data-date='{check_out_date}']")
         check_out.click()
         time.sleep(2)
+    
+    def set_adults(self, number_of_adults):
+        pass
+    
